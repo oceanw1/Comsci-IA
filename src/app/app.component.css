@@ -1,0 +1,89 @@
+.main-container {
+  background-color: rgb(187, 229, 243);
+  /* transform: translateY(-8px);
+  transform: translatex(-8px); */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 45px;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.prevButtonContainer {
+  display: flex;
+  position: absolute;
+  transform: translate(30px, 45px);
+  width: 135px;
+}
+.nextButtonContainer {
+  display: flex;
+  position: absolute;
+  /* justify-content: right;/ */
+  transform: translate(88vw, 45px);
+  width: 135px;
+}
+
+.nextButton {
+  background-color: #00ff00;
+}
+.prevButton {
+  background-color: #ff9999;
+}
+
+.grid-container {
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 70vh;
+  max-width: 1000px;
+}
+
+.days {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border: solid black 2px;
+  width: 160px;
+  height: 190px;
+  background-color: #cccccc;
+}
+
+.day1 {
+  transform: translate(-38vw, 10vh);
+}
+.day2 {
+  transform: translate(-19vw, 10vh);
+}
+.day3 {
+  transform: translate(0px, 10vh);
+}
+.day4 {
+  transform: translate(19vw, 10vh);
+}
+.day5 {
+  transform: translate(38vw, 10vh);
+}
+.day6 {
+  transform: translate(-38vw, 45vh);
+}
+.day7 {
+  transform: translate(-19vw, 45vh);
+}
+.day8 {
+  transform: translate(0px, 45vh);
+}
+.day9 {
+  transform: translate(19vw, 45vh);
+}
+.day10 {
+  transform: translate(38vw, 45vh);
+}
